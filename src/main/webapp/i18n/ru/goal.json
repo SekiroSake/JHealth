@@ -1,0 +1,24 @@
+{
+    "jHealthApp": {
+        "goal" : {
+            "home": {
+                "title": "Goals",
+                "createLabel": "Создать новый Goal",
+                "createOrEditLabel": "Создать или отредактировать Goal",
+                "search": "Найти Goal"
+            },
+            "created": "Новый Goal создан с идентификатором {{ param }}",
+            "updated": "Goal обновлен с идентификатором {{ param }}",
+            "deleted": "Goal удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Goal {{ id }}?"
+            },
+            "detail": {
+                "title": "Goal"
+            },
+            "name": "Name",
+            "description": "Description",
+            "user": "User"
+        }
+    }
+}

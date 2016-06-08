@@ -1,0 +1,24 @@
+{
+    "jHealthApp": {
+        "goal" : {
+            "home": {
+                "title": "Goals",
+                "createLabel": "Goal を追加",
+                "createOrEditLabel": "Goalを追加または編集",
+                "search": "Search for Goal"
+            },
+            "created": "A new Goal is created with identifier {{ param }}",
+            "updated": "A Goal is updated with identifier {{ param }}",
+            "deleted": "A Goal is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Goal {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Goal"
+            },
+            "name": "Name",
+            "description": "Description",
+            "user": "User"
+        }
+    }
+}

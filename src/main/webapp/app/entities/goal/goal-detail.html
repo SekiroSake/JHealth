@@ -1,0 +1,26 @@
+
+<div>
+    <h2><span translate="jHealthApp.goal.detail.title">Goal</span> {{vm.goal.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="jHealthApp.goal.name">Name</span></dt>
+        <dd>
+            <span>{{vm.goal.name}}</span>
+        </dd>
+        <dt><span translate="jHealthApp.goal.description">Description</span></dt>
+        <dd>
+            <span>{{vm.goal.description}}</span>
+        </dd>
+        <dt><span translate="jHealthApp.goal.user">User</span></dt>
+        <dd>
+            {{vm.goal.user.id}}
+        </dd>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
